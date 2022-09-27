@@ -1,5 +1,5 @@
 * {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 p {
@@ -18,7 +18,7 @@ div p {
     font-size: 2em;
     font-weight: bold;
     background-color: rgb(220, 220, 220);
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -26,14 +26,14 @@ div p {
 }
 
 .Login {
-    display:flex;
+    display: flex;
     flex-direction: column;
     font-size: 1.125em;
     font-weight: bold;
-    background-color:rgb(220, 220, 220);
+    background-color: rgb(220, 220, 220);
     margin-top: 25px;
-    margin-right:15vw;
-    margin-left:15vw;
+    margin-right: 15vw;
+    margin-left: 15vw;
     text-align: center;
     padding: 10px;
     border-color: red;
@@ -41,7 +41,7 @@ div p {
 }
 
 .Account {
-    color:rgb(0, 200, 255);
+    color: rgb(0, 200, 255);
 }
 
 #Userlogo {
@@ -50,23 +50,23 @@ div p {
 
 #Email {
     height: 30px;
-    border:none;
+    border: none;
 }
 
 #Password {
     margin: 10px;
     height: 30px;
-    border:none;
+    border: none;
 }
 
 #LoginButton {
-    color:white;
+    color: white;
     background-color: rgb(32, 70, 139);
-    border:none;
+    border: none;
     padding: 5px;
     width: 25%;
 }
 
-#LoginHome:hover{
+#LoginHome:hover {
     background-color: yellowgreen;
 }
