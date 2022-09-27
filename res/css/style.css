@@ -1,0 +1,72 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+
+p {
+    line-height: 6px;
+}
+
+::placeholder {
+    color: grey;
+}
+
+div p {
+    font-size: 0.925em;
+}
+
+.Header {
+    font-size: 2em;
+    font-weight: bold;
+    background-color: rgb(220, 220, 220);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.Login {
+    display:flex;
+    flex-direction: column;
+    font-size: 1.125em;
+    font-weight: bold;
+    background-color:rgb(220, 220, 220);
+    margin-top: 25px;
+    margin-right:15vw;
+    margin-left:15vw;
+    text-align: center;
+    padding: 10px;
+    border-color: red;
+    border-radius: 20px;
+}
+
+.Account {
+    color:rgb(0, 200, 255);
+}
+
+#Userlogo {
+    height: 50px;
+}
+
+#Email {
+    height: 30px;
+    border:none;
+}
+
+#Password {
+    margin: 10px;
+    height: 30px;
+    border:none;
+}
+
+#LoginButton {
+    color:white;
+    background-color: rgb(32, 70, 139);
+    border:none;
+    padding: 5px;
+    width: 25%;
+}
+
+#LoginHome:hover{
+    background-color: yellowgreen;
+}
