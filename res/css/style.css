@@ -70,3 +70,25 @@ div p {
 #LoginHome:hover {
     background-color: yellowgreen;
 }
+
+#Userlogo {
+    height: 50px;
+}
+
+
+#Choose\ File\ Button {
+    color:white;
+    background-color: rgb(32, 70, 139);
+    border:none;
+    padding: 5px;
+    width: 16%;
+
+}
+
+#Create\ post\ Button {
+    color: white;
+    background-color: rgb(32, 70, 139);
+    border: none;
+    padding: 5px;
+    width: 20%;
+}
