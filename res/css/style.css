@@ -14,15 +14,26 @@ div p {
     font-size: 0.925em;
 }
 
+.Aside {
+    background-color: rgb(220, 220, 220);
+    width: 15vw;
+    height: auto;
+    border-radius: 10px;
+}
+
 .Header {
+    border-radius:10px;
     font-size: 2em;
     font-weight: bold;
     background-color: rgb(220, 220, 220);
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     padding: 10px;
+}
+
+.Header :last-child {
+    margin-left:auto;
 }
 
 .Login {
@@ -40,8 +51,57 @@ div p {
     border-radius: 20px;
 }
 
+.Section {
+    display: flex;
+    flex-direction: row;
+}
+
+.Article {
+    border-radius: 10px;
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    flex-direction: column;
+    margin:5px;
+    padding:10px;
+}
+
+.UserDate {
+    display: flex;
+    flex-direction:row;
+    align-items: top;
+}
+
+.UserDate :last-child {
+    margin-left:auto;
+}
+
 .Account {
     color: rgb(0, 200, 255);
+}
+
+.Content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:10px;
+    margin-bottom: 50px;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.Footer {
+    bottom:0px;
+    width:99vw;
+    border-radius: 10px;
+    display:flex;
+    background-color: rgb(220, 220, 220);
+    position:fixed;
+    justify-content: center;
 }
 
 #Userlogo {
@@ -77,9 +137,9 @@ div p {
 
 
 #Choose\ File\ Button {
-    color:white;
+    color: white;
     background-color: rgb(32, 70, 139);
-    border:none;
+    border: none;
     padding: 5px;
     width: 16%;
 
