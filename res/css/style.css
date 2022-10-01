@@ -113,6 +113,17 @@ main > article {
     padding-right: 10px;
 }
 
+.Posting {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.PostBody{
+    padding-right: 10px;
+}
+
 #Email {
     height: 30px;
     border: none;
