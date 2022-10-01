@@ -138,20 +138,28 @@ div p {
     background-color: yellowgreen;
 }
 
-#Choose\ File\ Button {
+
+input[type="file"]::file-selector-button {
     color: white;
     background-color: rgb(32, 70, 139);
-    border: none;
+    border: 2px;
     padding: 5px;
-    width: 16%;
+    width: 50%;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 
-#Create\ post\ Button {
-    color: white;
+
+input[type="fileUpload"]::-webkit-file-upload-button {
+    color: blue;
     background-color: rgb(32, 70, 139);
     border: none;
     padding: 5px;
     width: 20%;
+
 }
+
+
+
 
