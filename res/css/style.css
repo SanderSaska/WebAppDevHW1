@@ -3,7 +3,7 @@
 }
 
 p {
-    line-height: 6px;
+    line-height: 1.25;
 }
 
 ::placeholder {
@@ -30,6 +30,7 @@ div p {
     flex-direction: row;
     align-items: center;
     padding: 10px;
+    padding-left: 20px;
 }
 
 .Header :last-child {
@@ -84,14 +85,15 @@ div p {
     flex-direction: row;
     justify-content: space-between;
     margin-top:10px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .Main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    flex:1;
+    align-items: center;
 }
 
 .Footer {
@@ -104,8 +106,9 @@ div p {
     justify-content: center;
 }
 
-#Userlogo {
+.user_icon {
     height: 50px;
+    padding-right: 10px;
 }
 
 #Email {
@@ -131,10 +134,9 @@ div p {
     background-color: yellowgreen;
 }
 
-#Userlogo {
-    height: 50px;
+#AddPost:hover {
+    background-color: yellowgreen;
 }
-
 
 #Choose\ File\ Button {
     color: white;
