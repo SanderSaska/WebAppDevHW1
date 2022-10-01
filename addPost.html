@@ -14,15 +14,19 @@
 </header>
 <section class="Login">
   <div>
-    <p class="User post">Post body
-    <input type="text" required id="textarea" placeholder="textarea"><br></p>
-
+    <p class="Post Body">Post body</p>
+    <style>
+        textarea {
+         resize: none;
+      }
+    </style>
+    <textarea id="textarea" name="textarea" rows="5" cols="25"></textarea>
   </div>
   <form action="index.html" class="LoginForm">
-    <p class="Select file">Select file
-        <input type="Choose file" id="Choose File Button" value="Choose File" onclick=""></p>
-      <br>
-    <input type="submit" id="Create post Button" value="Create post" onclick="">
+      <p class="Select file">Select file
+        <input type="choose file" id="Choose File Button" value="Choose File" onclick=""><br>
+      </p>
+      <input type="submit" id="Create post Button" value="Create post" onclick="">
   </form>
 
 
