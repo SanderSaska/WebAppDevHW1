@@ -151,6 +151,12 @@ main > article {
     background-color: yellowgreen;
 }
 
+#textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+
 
 input[type="file"]::file-selector-button {
     color: white;
